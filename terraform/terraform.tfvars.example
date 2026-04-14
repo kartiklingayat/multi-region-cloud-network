@@ -1,0 +1,5 @@
+primary_region   = "us-east-1"
+secondary_region = "us-west-2"
+domain_name      = "yourdomain.com"   # Must exist as Route53 hosted zone
+key_name         = "your-ec2-key"     # optional
+environment      = "failover-lab"
